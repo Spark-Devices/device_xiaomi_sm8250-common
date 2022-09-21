@@ -145,6 +145,7 @@ $(foreach p, $(call to-upper, $(ALL_PARTITIONS)), \
     $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
 
 BOARD_EROFS_PCLUSTER_SIZE := 262144
+PRODUCT_FS_COMPRESSION := 1
 # Partitions - dynamic
 BOARD_SUPER_PARTITION_SIZE := 9126805504
 BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
