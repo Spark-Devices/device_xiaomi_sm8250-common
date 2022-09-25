@@ -116,7 +116,6 @@ PRODUCT_PACKAGES += \
     audio.usbv2.default \
 
 PRODUCT_PACKAGES += \
-    liba2dpoffload \
     libaudiopreprocessing \
     libaudio-resampler \
     libbatterylistener \
