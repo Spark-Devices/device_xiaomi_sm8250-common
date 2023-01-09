@@ -139,6 +139,10 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     sound_trigger.primary.kona
 
+# Audio Daemon
+PRODUCT_PACKAGES += audioadsprpcd
+PRODUCT_PACKAGES += vendor.qti.audio-adsprpc-service.rc
+
 # Audio Alsa Extensions
 PRODUCT_PACKAGES += \
    libaudioroute \
