@@ -147,7 +147,7 @@ PRODUCT_PACKAGES += \
    libalsautilsv2
 
 # Audio Debugging Packages
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES += \
     tinyplay \
     tinycap \
