@@ -532,10 +532,10 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.xiaomi_kona
+    vendor.qti.hardware.vibrator.service.xiaomi
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+    hardware/xiaomi/aidl/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # WiFi
 PRODUCT_PACKAGES += \
